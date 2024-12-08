@@ -158,17 +158,11 @@ function openPopup(assignment) {
     get_tag("script", base_url+"/app/videooptions.js");
     get_tag("script", base_url+"/app/videospeed.js");
   </script>
-  <title>Answers for: ${media.title}</title>
+  <title>${media.title}</title>
 </head>
 <body>
   <div class="container">
     <header>
-      <div class="header-content">
-        <img src="${thumbnail}" alt="Video Thumbnail" class="thumbnail">
-        <div class="video-info">
-          <h1>${media.title}</h1>
-        </div>
-      </div>
       <div class="controls">
         <button id="skipper" onclick="skip_video();" disabled>Skip Video</button>
         <button id="answers_button" onclick="answer_questions();" disabled>Answer Questions</button>
