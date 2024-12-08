@@ -163,6 +163,11 @@ function openPopup(assignment) {
 <body>
   <div class="container">
     <header>
+      <div class="header-content">
+        <div class="video-info">
+          <h1>${media.title}</h1>
+        </div>
+      </div>
       <div class="controls">
         <button id="skipper" onclick="skip_video();" disabled>Skip Video</button>
         <button id="answers_button" onclick="answer_questions();" disabled>Answer Questions</button>
